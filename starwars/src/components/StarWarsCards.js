@@ -13,7 +13,7 @@ const StarWarsCards = () =>{
             console.log(response.data);
             setPeople(response.data.results);
         })
-    },[])
+    },[page])
 
     return(
         <div>
